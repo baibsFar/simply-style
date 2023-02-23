@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/partials/_fontFaces.scss","../scss/partials/_reset.scss","../scss/partials/_variables.scss","../scss/main.scss","../scss/partials/_presetColors.scss"],"names":[],"mappings":"AAAA,WACE,wBACA,2CAGF,WACE,4BACA,8CAGF,WACE,yBACA,4CCZF,qBAGE,SACA,UACA,sBACA,qDACA,MCyCK,QDtCP,EACE,cACA,qBAGF,QAEE,UCyDS,MCnEX,EACE,MCCgB","file":"main.css"}

@@ -1,0 +1,20 @@
+{
+  "name": "lib-scss",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sass-dev": "sass --watch --style=compressed ./src/scss/main.scss ./src/css/main.css",
+    "generate-preset": "node ./src/js/preset.js"
+  },
+  "devDependencies": {
+    "sass": "^1.58.3",
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}

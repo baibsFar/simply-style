@@ -1,0 +1,13 @@
+@mixin background-with-image($path, $pos-x: center, $pos-y: center, $size: cover, $linear-gradient) {
+  background: url($path), $linear-gradient;
+  background-position-x: $pos-x;
+  background-position-y: $pos-y;
+  background-repeat: no-repeat;
+  background-size: $size;
+  object-fit: $size;
+}
+
+@mixin background-with-linear($pos-x: center, $pos-y: center, $linear-gradient) {
+  background: $linear-gradient;
+  background-repeat: no-repeat;
+}
