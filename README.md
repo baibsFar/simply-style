@@ -110,14 +110,6 @@ We can use mixins to decrease the length of code to write and minimize time.
 @import "./mixins/display";
 ```
 
-- Available options:
-  * flex-start
-  * flex-end
-  * center
-  * baseline
-  * left
-  * right
-
 - Usage: 
 ```scss
 /*
