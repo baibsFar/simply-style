@@ -1,12 +1,13 @@
 - [Installation](#installation)
-- [Variables](#variables): 
-  * [Font Family](#font-family)
-  * [Colors](#colors)
-  * [Sizes](#sizes)
-  * [Screen Breakpoints](#screen-breakpoints)
-- [Adding color preset](#adding-color-preset)
+- [Variables](#variables)
+  - [Font Family](#font-family)
+  - [Colors](#colors)
+  - [Sizes](#sizes)
+  - [Screen breakpoints](#screen-breakpoints)
+- [Adding Color preset](#adding-color-preset)
 - [Flexbox](#flexbox)
 - [Animations](#animations)
+  - [Usage](#usage)
 
 # Installation
 - Clone the repository
@@ -26,9 +27,23 @@ In the variables, we have by default font families, colors, sizes and screen bre
 
 ## Font Family
 ```scss
-$quicksand: "Quicksand";
-$shantell: "Shantell Sans";
+$angillaTattoo: "AngillaTattoo";
+$anton: "Anton";
+$bukhariScript: "BukhariScript";
+$caviarDreams: "CaviarDreams";
+$champagneLimousines: "ChampagneLimousines";
+$cupcakeParty: "CupcakeParty";
+$josefinSans: "JosefinSans";
+$jura: "Jura";
+$kalam: "Kalam";
 $montserrat: "Montserrat";
+$nickainley: "Nickainley";
+$orange: "Orange";
+$oswald: "Oswald";
+$quicksand: "Quicksand";
+$sacramento: "Sacramento";
+$shantellSans: "ShantellSans";
+$stalemate: "Stalemate";
 ```
 
 ## Colors
