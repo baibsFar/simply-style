@@ -1,5 +1,9 @@
 - [Installation](#installation)
-- [Variables](#variables)
+- [Variables](#variables): 
+  * [Font Family](#font-family)
+  * [Colors](#colors)
+  * [Sizes](#sizes)
+  * [Screen Breakpoints](#screen-breakpoints)
 - [Adding color preset](#adding-color-preset)
 - [Flexbox](#flexbox)
 - [Animations](#animations)
