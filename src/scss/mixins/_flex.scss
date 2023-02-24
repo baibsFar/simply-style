@@ -7,239 +7,239 @@
   display: flex;
 }
 
-%flex-row {
+@mixin flex-row {
   flex-direction: row;
 }
 
-%flex-column {
+@mixin flex-column {
   flex-direction: column;
 }
 
-%flex-column-reverse {
+@mixin flex-column-reverse {
   flex-direction: column-reverse;
 }
 
-%flex-row-reverse {
+@mixin flex-row-reverse {
   flex-direction: row-reverse;
 }
 
 /* JUSTIFY CONTENT: FLEX-START */
-%flex-flexStart-flexStart {
+@mixin flex-flexStart-flexStart {
   @include flex;
   justify-content: flex-start;
   align-items: flex-start;
 }
 
-%flex-flexStart-flexEnd {
+@mixin flex-flexStart-flexEnd {
   @include flex;
   justify-content: flex-start;
   align-items: flex-end;
 }
 
-%flex-flexStart-center {
+@mixin flex-flexStart-center {
   @include flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-%flex-flexStart-baseline {
+@mixin flex-flexStart-baseline {
   @include flex;
   justify-content: flex-start;
   align-items: baseline;
 }
 
-%flex-flexStart-left {
+@mixin flex-flexStart-left {
   @include flex;
   justify-content: flex-start;
   align-items: left;
 }
 
-%flex-flexStart-right {
+@mixin flex-flexStart-right {
   @include flex;
   justify-content: flex-start;
   align-items: right;
 }
 
 /* JUSTIFY-CONTENT: FLEX-END */
-%flex-flexEnd-flexStart {
+@mixin flex-flexEnd-flexStart {
   @include flex;
   justify-content: flex-end;
   align-items: flex-start;
 }
 
-%flex-flexEnd-flexEnd {
+@mixin flex-flexEnd-flexEnd {
   @include flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
 
-%flex-flexEnd-center {
+@mixin flex-flexEnd-center {
   @include flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-%flex-flexEnd-baseline {
+@mixin flex-flexEnd-baseline {
   @include flex;
   justify-content: flex-end;
   align-items: baseline;
 }
 
-%flex-flexEnd-left {
+@mixin flex-flexEnd-left {
   @include flex;
   justify-content: flex-end;
   align-items: left;
 }
 
-%flex-flexEnd-right {
+@mixin flex-flexEnd-right {
   @include flex;
   justify-content: flex-end;
   align-items: right;
 }
 
 /* JUSTIFY-CONTENT: CENTER */
-%flex-center-flexStart {
+@mixin flex-center-flexStart {
   @include flex;
   justify-content: center;
   align-items: flex-start;
 }
 
-%flex-center-flexEnd {
+@mixin flex-center-flexEnd {
   @include flex;
   justify-content: center;
   align-items: flex-end;
 }
 
-%flex-center-center {
+@mixin flex-center-center {
   @include flex;
   justify-content: center;
   align-items: center;
 }
 
-%flex-center-baseline {
+@mixin flex-center-baseline {
   @include flex;
   justify-content: center;
   align-items: baseline;
 }
 
-%flex-center-left {
+@mixin flex-center-left {
   @include flex;
   justify-content: center;
   align-items: left;
 }
 
-%flex-center-right {
+@mixin flex-center-right {
   @include flex;
   justify-content: center;
   align-items: right;
 }
 
 /* JUSTIFY-CONTENT: BASELINE */
-%flex-baseline-flexStart {
+@mixin flex-baseline-flexStart {
   @include flex;
   justify-content: baseline;
   align-items: flex-start;
 }
 
-%flex-baseline-flexEnd {
+@mixin flex-baseline-flexEnd {
   @include flex;
   justify-content: baseline;
   align-items: flex-end;
 }
 
-%flex-baseline-center {
+@mixin flex-baseline-center {
   @include flex;
   justify-content: baseline;
   align-items: center;
 }
 
-%flex-baseline-baseline {
+@mixin flex-baseline-baseline {
   @include flex;
   justify-content: baseline;
   align-items: baseline;
 }
 
-%flex-baseline-left {
+@mixin flex-baseline-left {
   @include flex;
   justify-content: baseline;
   align-items: left;
 }
 
-%flex-baseline-right {
+@mixin flex-baseline-right {
   @include flex;
   justify-content: baseline;
   align-items: right;
 }
 
 /* JUSTIFY-CONTENT: LEFT */
-%flex-left-flexStart {
+@mixin flex-left-flexStart {
   @include flex;
   justify-content: left;
   align-items: flex-start;
 }
 
-%flex-left-flexEnd {
+@mixin flex-left-flexEnd {
   @include flex;
   justify-content: left;
   align-items: flex-end;
 }
 
-%flex-left-center {
+@mixin flex-left-center {
   @include flex;
   justify-content: left;
   align-items: center;
 }
 
-%flex-left-baseline {
+@mixin flex-left-baseline {
   @include flex;
   justify-content: left;
   align-items: baseline;
 }
 
-%flex-left-left {
+@mixin flex-left-left {
   @include flex;
   justify-content: left;
   align-items: left;
 }
 
-%flex-left-right {
+@mixin flex-left-right {
   @include flex;
   justify-content: left;
   align-items: right;
 }
 
 /* JUSTIFY-CONTENT: RIGHT */
-%flex-right-flexStart {
+@mixin flex-right-flexStart {
   @include flex;
   justify-content: right;
   align-items: flex-start;
 }
 
-%flex-right-flexEnd {
+@mixin flex-right-flexEnd {
   @include flex;
   justify-content: right;
   align-items: flex-end;
 }
 
-%flex-right-center {
+@mixin flex-right-center {
   @include flex;
   justify-content: right;
   align-items: center;
 }
 
-%flex-right-baseline {
+@mixin flex-right-baseline {
   @include flex;
   justify-content: right;
   align-items: baseline;
 }
 
-%flex-right-left {
+@mixin flex-right-left {
   @include flex;
   justify-content: right;
   align-items: left;
 }
 
-%flex-right-right {
+@mixin flex-right-right {
   @include flex;
   justify-content: right;
   align-items: right;
