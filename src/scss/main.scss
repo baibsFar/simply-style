@@ -4,4 +4,10 @@
 @import "./placeholders/flex";
 @import "./partials/variables";
 @import "./partials/presetColors";
+@import "./partials/animations";
 @import "./partials/reset";
+
+h1 {
+  position: relative;
+  @include animate-with (fade-in, 2.5s, ease-out);
+}
