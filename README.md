@@ -103,11 +103,11 @@ $desktop-2: 1536px;
 ```
 
 # Flexbox
-We can use placeholders to decrease the length of code to write and minimize time.
+We can use mixins to decrease the length of code to write and minimize time.
 - First, import flex module into your scss:
 ```scss
 // Here is an import into main.scss
-@import "./placeholders/flex";
+@import "./mixins/flex";
 ```
 
 - Available options:
@@ -125,7 +125,7 @@ We can use placeholders to decrease the length of code to write and minimize tim
   justify-content: flex-start;
   align-items: flex-end;
 */
-@extend flex-flexStart-flexEnd;
+@include flex-flexStart-flexEnd;
 ```
 
 # Animations
