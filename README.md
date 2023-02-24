@@ -1,8 +1,8 @@
-- [Installation](https://github.com/baibsFar/simply-style/#installation)
-- [Variables](https://github.com/baibsFar/simply-style/#variables)
-- [Adding color preset](https://github.com/baibsFar/simply-style/#adding-color-preset)
-- [Flexbox](https://github.com/baibsFar/simply-style/#flexbox)
-- [Animations](https://github.com/baibsFar/simply-style/#animations)
+- [Installation](#installation)
+- [Variables](#variables)
+- [Adding color preset](#adding-color-preset)
+- [Flexbox](#flexbox)
+- [Animations](#animations)
 
 # Installation
 - Clone the repository
