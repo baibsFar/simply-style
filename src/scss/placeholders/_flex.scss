@@ -1,0 +1,246 @@
+/*
+  justify-content: flex-start/flex-end/center/baseline/left/right
+  align-items: flex-start/flex-end/center/baseline/left/right
+*/
+
+@mixin flex {
+  display: flex;
+}
+
+%flex-row {
+  flex-direction: row;
+}
+
+%flex-column {
+  flex-direction: column;
+}
+
+%flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+%flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+/* JUSTIFY CONTENT: FLEX-START */
+%flex-flexStart-flexStart {
+  @include flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+%flex-flexStart-flexEnd {
+  @include flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+%flex-flexStart-center {
+  @include flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+%flex-flexStart-baseline {
+  @include flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+%flex-flexStart-left {
+  @include flex;
+  justify-content: flex-start;
+  align-items: left;
+}
+
+%flex-flexStart-right {
+  @include flex;
+  justify-content: flex-start;
+  align-items: right;
+}
+
+/* JUSTIFY-CONTENT: FLEX-END */
+%flex-flexEnd-flexStart {
+  @include flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+%flex-flexEnd-flexEnd {
+  @include flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+%flex-flexEnd-center {
+  @include flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+%flex-flexEnd-baseline {
+  @include flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+%flex-flexEnd-left {
+  @include flex;
+  justify-content: flex-end;
+  align-items: left;
+}
+
+%flex-flexEnd-right {
+  @include flex;
+  justify-content: flex-end;
+  align-items: right;
+}
+
+/* JUSTIFY-CONTENT: CENTER */
+%flex-center-flexStart {
+  @include flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+%flex-center-flexEnd {
+  @include flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+%flex-center-center {
+  @include flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%flex-center-baseline {
+  @include flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+%flex-center-left {
+  @include flex;
+  justify-content: center;
+  align-items: left;
+}
+
+%flex-center-right {
+  @include flex;
+  justify-content: center;
+  align-items: right;
+}
+
+/* JUSTIFY-CONTENT: BASELINE */
+%flex-baseline-flexStart {
+  @include flex;
+  justify-content: baseline;
+  align-items: flex-start;
+}
+
+%flex-baseline-flexEnd {
+  @include flex;
+  justify-content: baseline;
+  align-items: flex-end;
+}
+
+%flex-baseline-center {
+  @include flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+%flex-baseline-baseline {
+  @include flex;
+  justify-content: baseline;
+  align-items: baseline;
+}
+
+%flex-baseline-left {
+  @include flex;
+  justify-content: baseline;
+  align-items: left;
+}
+
+%flex-baseline-right {
+  @include flex;
+  justify-content: baseline;
+  align-items: right;
+}
+
+/* JUSTIFY-CONTENT: LEFT */
+%flex-left-flexStart {
+  @include flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+%flex-left-flexEnd {
+  @include flex;
+  justify-content: left;
+  align-items: flex-end;
+}
+
+%flex-left-center {
+  @include flex;
+  justify-content: left;
+  align-items: center;
+}
+
+%flex-left-baseline {
+  @include flex;
+  justify-content: left;
+  align-items: baseline;
+}
+
+%flex-left-left {
+  @include flex;
+  justify-content: left;
+  align-items: left;
+}
+
+%flex-left-right {
+  @include flex;
+  justify-content: left;
+  align-items: right;
+}
+
+/* JUSTIFY-CONTENT: RIGHT */
+%flex-right-flexStart {
+  @include flex;
+  justify-content: right;
+  align-items: flex-start;
+}
+
+%flex-right-flexEnd {
+  @include flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+%flex-right-center {
+  @include flex;
+  justify-content: right;
+  align-items: center;
+}
+
+%flex-right-baseline {
+  @include flex;
+  justify-content: right;
+  align-items: baseline;
+}
+
+%flex-right-left {
+  @include flex;
+  justify-content: right;
+  align-items: left;
+}
+
+%flex-right-right {
+  @include flex;
+  justify-content: right;
+  align-items: right;
+}
