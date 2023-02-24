@@ -107,7 +107,7 @@ We can use mixins to decrease the length of code to write and minimize time.
 - First, import flex module into your scss:
 ```scss
 // Here is an import into main.scss
-@import "./mixins/flex";
+@import "./mixins/display";
 ```
 
 - Available options:
@@ -122,10 +122,11 @@ We can use mixins to decrease the length of code to write and minimize time.
 ```scss
 /*
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
 */
-@include flex-flexStart-flexEnd;
+@include flex(row, flex-start, flex-end);
 ```
 
 # Animations
