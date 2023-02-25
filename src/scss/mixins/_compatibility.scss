@@ -1,0 +1,19 @@
+@mixin prefix($prop, $value){
+    -webkit-#{$prop}: $value;
+    -o-#{$prop}: $value;
+    -ms-#{$prop}: $value;
+    -moz-#{$prop}: $value;
+    #{$prop}: $value;
+}
+
+@mixin keyframes($name){
+    @-webkit-keyframes #{$name}{
+        @content;
+    }
+    @-moz-keyframes #{$name}{
+        @content;
+    }
+    @keyframes #{$name}{
+        @content;
+    }
+}
