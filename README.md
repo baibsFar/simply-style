@@ -5,6 +5,9 @@
   - [Sizes](#sizes)
   - [Screen breakpoints](#screen-breakpoints)
 - [Adding Color preset](#adding-color-preset)
+- [Compatibility to old browsers](#compatibility-to-old-browsers)
+  - [Properties](#properties)
+  - [Keyframes](#keyframes)
 - [Flexbox](#flexbox)
 - [Animations](#animations)
   - [Usage](#usage)
@@ -115,6 +118,57 @@ $desktop-2: 1536px;
 @import "./partials/variables";
 @import "./partials/presetColors";  // Here is the import to verify
 @import "./partials/reset";
+```
+
+# Compatibility to old browsers
+## Properties
+There is a mixin that can be used to prefix css properties in order to make your stylesheets compatible with old browsers.
+- Usage:
+```scss
+@import "./mixins/compatibility"
+
+p{
+  @include prefix(background-clip, text);
+}
+```
+- The compiled css:
+```css
+p{
+    -webkit-background-clip: text;
+    -o-background-clip: text;
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+```
+## Keyframes
+- Usage:
+```scss
+@import "./mixins/compatibility"
+
+@include keyframes(background-change){
+  0% { background-color: white; }
+  50% { background-color: red; }
+  100% { background-color: green; }
+}
+```
+- Compiled css
+```css
+    @-webkit-keyframes background-change{
+      0% { background-color: white; }
+      50% { background-color: red; }
+      100% { background-color: green; }
+    }
+    @-moz-keyframes background-change{
+      0% { background-color: white; }
+      50% { background-color: red; }
+      100% { background-color: green; }
+    }
+    @keyframes background-change{
+      0% { background-color: white; }
+      50% { background-color: red; }
+      100% { background-color: green; }
+    }
 ```
 
 # Flexbox
